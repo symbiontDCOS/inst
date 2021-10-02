@@ -14,7 +14,6 @@ OutputDir=mkosi.output/2109
 
 [Packages]
 Cache=../__sharedCache__
-ExtraTrees=mkosi.extra/inst
 Packages=
 	btrfs-progs
 	dmidecode

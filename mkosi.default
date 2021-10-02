@@ -10,7 +10,7 @@ BootProtocols=uefi
 Format=gpt_btrfs
 Hostname=installer
 Output=inst_2109.img
-OutputDir=mkosi.output/inst/2109
+OutputDir=mkosi.output/2109
 
 [Packages]
 Cache=../__sharedCache__

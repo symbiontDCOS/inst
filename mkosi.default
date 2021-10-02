@@ -17,10 +17,12 @@ Cache=../__sharedCache__
 Packages=
 	btrfs-progs
 	dmidecode
+	ed
 	htop
 	openssh-server
 	passwd
 	procps-ng
+	pv
 	shadow-utils
 	systemd-networkd
 	usbutils
@@ -34,4 +36,4 @@ BMap=yes
 CheckSum=yes
 Sign=no
 Key=boxos_signature
-Autologin=yes
+Password=installer

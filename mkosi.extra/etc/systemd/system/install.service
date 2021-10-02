@@ -1,6 +1,6 @@
 [Unit]
 Description=Symbiont SlimOS Installer
-ConditionFirstBoot=yes
+ConditionPathExists=!/.__ssinstall__
 
 [Service]
 Type=oneshot

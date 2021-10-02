@@ -3,7 +3,7 @@
 outdir=mkosi.output/2109
 output=inst_2109.img
 
-all: image dist
+all: image
 
 image:
 	mkosi 

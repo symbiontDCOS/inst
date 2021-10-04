@@ -9,23 +9,29 @@ Bootable=yes
 BootProtocols=uefi
 Format=gpt_btrfs
 Hostname=installer
-Output=inst_2109.img
-OutputDir=mkosi.output/2109
+Output=inst_2110.img
+OutputDir=mkosi.output/2110
 
 [Packages]
 Cache=../__sharedCache__
 Packages=
 	btrfs-progs
+	bmap-tools
 	dmidecode
-	ed
+	dnf
+	dosfstools
+	e2fsprogs
 	htop
+	mkosi
 	openssh-server
 	passwd
 	procps-ng
-	pv
+	python3
 	shadow-utils
+	systemd-container
 	systemd-networkd
 	usbutils
+	vim-minimal
 	zstd
 
 [Partitions]
@@ -36,4 +42,5 @@ BMap=yes
 CheckSum=yes
 Sign=no
 Key=boxos_signature
+Autologin=yes
 Password=installer

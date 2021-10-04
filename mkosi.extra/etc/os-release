@@ -1,11 +1,11 @@
 NAME="Symbiont SlimOS"
-VERSION="2109 (Installer)"
+VERSION="2110 (Installer)"
 ID=slimos
-VERSION_ID=2109
+VERSION_ID=2110
 VERSION_CODENAME=""
-PLATFORM_ID="platform:slimos2109"
-PRETTY_NAME="Symbiont SlimOS 2109 (Installer)"
+PLATFORM_ID="platform:slimos2110"
+PRETTY_NAME="Symbiont SlimOS 2110 (Installer)"
 ANSI_COLOR="0;34"
 LOGO=fedora-logo-icon
-CPE_NAME="cpe:/o:symbiont:slimos:2109"
+CPE_NAME="cpe:/o:symbiont:slimos:2110"
 HOME_URL="https://symbiontproject.org/"

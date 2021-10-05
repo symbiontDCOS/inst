@@ -4,7 +4,7 @@ ConditionPathExists=!/.__ssinstall__
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/ssinstall.sh
+ExecStart=/usr/bin/installctl --autodetect
 
 [Install]
 WantedBy=multi-user.target

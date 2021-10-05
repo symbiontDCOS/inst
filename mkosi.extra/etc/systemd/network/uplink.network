@@ -1,5 +1,5 @@
 [Match]
-Name=en*
+Name=*
 
 [Network]
-Bridge=br0
+DHCP=ipv4
